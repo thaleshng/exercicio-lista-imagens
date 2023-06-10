@@ -1,0 +1,27 @@
+@media (max-width: 680px) {
+    main {
+        display: block;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    .rome {
+        margin: 0;
+        scale: 0.95;
+    }
+    .boat-at-sea {
+        margin: 0;
+        scale: 0.95;
+    }
+    .sand-and-sea {
+        margin: 0;
+        scale: 0.95;
+    }
+    .starry-night {
+        margin: 0;
+        scale: 0.95;
+    }
+
+}

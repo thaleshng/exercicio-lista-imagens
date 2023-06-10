@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
+body {
+    height: 100vh;
+    font-family: 'Public Sans', sans-serif;
+    max-width: 1440px;
+}
+
+main{
+    display: flex;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rome {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 335px;
+    height: 432px;
+    background-image: url(/exercicio-lista-imagens/src/images/rome.png);
+    margin: 0 0 10px 20px;
+}
+
+.boat-at-sea {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 335px;
+    height: 432px;
+    background-image: url(/exercicio-lista-imagens/src/images/boat.png);
+    margin: 0 0 10px 20px;
+}
+
+.sand-and-sea {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 335px;
+    height: 432px;
+    background-image: url(/exercicio-lista-imagens/src/images/sand-and-sea.png);
+    margin: 0 0 10px 20px;
+}
+
+.starry-night {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 335px;
+    height: 432px;
+    background-image: url(/exercicio-lista-imagens/src/images/starry-night.png);
+    margin: 0 0 10px 20px;
+}
+
+.paint {
+    margin-left: 26px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.artist {
+    margin: 0 0 43px 26px;
+    font-size: 17px;
+    color: white;
+    font: 300;
+}
